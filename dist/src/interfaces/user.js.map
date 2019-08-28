@@ -1,0 +1,1 @@
+{"version":3,"file":"user.js","sourceRoot":"","sources":["../../../src/interfaces/user.ts"],"names":[],"mappings":";;AAKC,CAAC","sourcesContent":["export interface IUserRequest {\n    id: number,\n    name: string,\n    email: string,\n    password: string,\n};"]}

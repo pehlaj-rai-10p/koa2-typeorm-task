@@ -1,0 +1,1 @@
+{"version":3,"file":"hero.js","sourceRoot":"","sources":["../../../src/interfaces/hero.ts"],"names":[],"mappings":";;AAGC,CAAC","sourcesContent":["export interface IHeroRequest {\n    id: number,\n    name: string,\n};"]}

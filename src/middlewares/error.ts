@@ -39,7 +39,7 @@ const handler = async (ctx: Context, next: () => void) => {
 const handleBoomError = (err: Boom): IMetaData => {
   return {
     status: +err.output.statusCode,
-    message: err.message,
+    message: `Boom error: ${err.message}`,
   };
 };
 
